@@ -1,122 +1,502 @@
 [
   {
     "id": 1,
-    "product_name": "Smartphone",
-    "description": "Latest model smartphone with advanced camera features and a powerful processor.",
-    "brand": "Apple"
+    "product_name": "Laptop 1",
+    "description": "High-performance laptop for gaming.",
+    "brand": "Dell",
+    "price": 1200.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 2,
-    "product_name": "Smartphone",
-    "description": "Flagship smartphone with fast charging and a high refresh rate display.",
-    "brand": "Samsung"
+    "product_name": "Smartphone 1",
+    "description": "Latest smartphone with amazing features.",
+    "brand": "Apple",
+    "price": 999.99,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 3,
-    "product_name": "Smartphone",
-    "description": "5G-enabled smartphone with a large screen and high-resolution camera.",
-    "brand": "OnePlus"
+    "product_name": "PC 1",
+    "description": "Powerful PC for all your needs.",
+    "brand": "Samsung",
+    "price": 1500.00,
+    "year": 2022,
+    "country": "South Korea",
+    "isAvailable": true
   },
   {
     "id": 4,
-    "product_name": "Laptop",
-    "description": "Lightweight laptop with a 15-inch display, fast performance, and extended battery.",
-    "brand": "Dell"
+    "product_name": "Laptop 2",
+    "description": "Ultra-lightweight laptop for professionals.",
+    "brand": "Apple",
+    "price": 1300.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 5,
-    "product_name": "Laptop",
-    "description": "High-performance gaming laptop with a dedicated graphics card.",
-    "brand": "Asus"
+    "product_name": "Smartphone 2",
+    "description": "Affordable smartphone with great performance.",
+    "brand": "Samsung",
+    "price": 499.99,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
   },
   {
     "id": 6,
-    "product_name": "Laptop",
-    "description": "Ultrabook with sleek design, long battery life, and fast SSD storage.",
-    "brand": "HP"
+    "product_name": "PC 2",
+    "description": "Gaming PC with the latest hardware.",
+    "brand": "Dell",
+    "price": 2000.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 7,
-    "product_name": "Smartwatch",
-    "description": "Water-resistant smartwatch with fitness tracking and notification features.",
-    "brand": "Fitbit"
+    "product_name": "Laptop 3",
+    "description": "Versatile laptop for work and play.",
+    "brand": "Apple",
+    "price": 1500.00,
+    "year": 2022,
+    "country": "USA",
+    "isAvailable": false
   },
   {
     "id": 8,
-    "product_name": "Smartwatch",
-    "description": "Smartwatch with built-in GPS and heart rate monitoring.",
-    "brand": "Garmin"
+    "product_name": "Smartphone 3",
+    "description": "Stylish smartphone with cutting-edge tech.",
+    "brand": "Samsung",
+    "price": 899.99,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
   },
   {
     "id": 9,
-    "product_name": "Smartwatch",
-    "description": "Smartwatch with ECG app, sleep tracking, and always-on display.",
-    "brand": "Apple"
+    "product_name": "PC 3",
+    "description": "Compact PC for home and office.",
+    "brand": "Dell",
+    "price": 800.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 10,
-    "product_name": "Laptop",
-    "description": "Powerful laptop for content creators with 4K display and ample storage.",
-    "brand": "Lenovo"
+    "product_name": "Laptop 4",
+    "description": "High-end laptop for creators.",
+    "brand": "Apple",
+    "price": 2500.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 11,
-    "product_name": "Smartphone",
-    "description": "Mid-range smartphone with excellent battery life and a fast processor.",
-    "brand": "Xiaomi"
+    "product_name": "Smartphone 4",
+    "description": "Rugged smartphone for outdoor use.",
+    "brand": "Samsung",
+    "price": 599.99,
+    "year": 2022,
+    "country": "South Korea",
+    "isAvailable": false
   },
   {
     "id": 12,
-    "product_name": "Smartphone",
-    "description": "Premium smartphone with a foldable screen and top-of-the-line specs.",
-    "brand": "Samsung"
+    "product_name": "PC 4",
+    "description": "Budget-friendly PC for students.",
+    "brand": "Dell",
+    "price": 400.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 13,
-    "product_name": "Smartphone",
-    "description": "Compact smartphone with flagship features and a premium design.",
-    "brand": "Google"
+    "product_name": "Laptop 5",
+    "description": "Gaming laptop with immersive graphics.",
+    "brand": "Dell",
+    "price": 1800.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 14,
-    "product_name": "Laptop",
-    "description": "Business laptop with excellent security features and a 14-inch display.",
-    "brand": "Microsoft"
+    "product_name": "Smartphone 5",
+    "description": "Smartphone with incredible battery life.",
+    "brand": "Apple",
+    "price": 799.99,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 15,
-    "product_name": "Laptop",
-    "description": "Entry-level laptop with a long battery life and durable design.",
-    "brand": "Acer"
+    "product_name": "PC 5",
+    "description": "High-performance workstation for professionals.",
+    "brand": "Samsung",
+    "price": 2200.00,
+    "year": 2022,
+    "country": "South Korea",
+    "isAvailable": true
   },
   {
     "id": 16,
-    "product_name": "Laptop",
-    "description": "Convertible 2-in-1 laptop with touch screen functionality.",
-    "brand": "Lenovo"
+    "product_name": "Laptop 6",
+    "description": "Stylish laptop for everyday use.",
+    "brand": "Apple",
+    "price": 1000.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": false
   },
   {
     "id": 17,
-    "product_name": "Smartwatch",
-    "description": "Stylish smartwatch with fitness tracking and mobile payment features.",
-    "brand": "Samsung"
+    "product_name": "Smartphone 6",
+    "description": "Feature-rich smartphone with a great camera.",
+    "brand": "Samsung",
+    "price": 699.99,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
   },
   {
     "id": 18,
-    "product_name": "Smartwatch",
-    "description": "Smartwatch with long battery life and customizable watch faces.",
-    "brand": "Fossil"
+    "product_name": "PC 6",
+    "description": "Gaming rig with customizable options.",
+    "brand": "Dell",
+    "price": 2500.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   },
   {
     "id": 19,
-    "product_name": "Smartwatch",
-    "description": "High-end smartwatch with LTE connectivity and fitness tracking.",
-    "brand": "Huawei"
+    "product_name": "Laptop 7",
+    "description": "Affordable laptop for basic tasks.",
+    "brand": "Dell",
+    "price": 600.00,
+    "year": 2022,
+    "country": "USA",
+    "isAvailable": false
   },
   {
     "id": 20,
-    "product_name": "Laptop",
-    "description": "Ultra-thin laptop with fast charging and exceptional performance.",
-    "brand": "Apple"
+    "product_name": "Smartphone 7",
+    "description": "Smartphone with high-resolution display.",
+    "brand": "Apple",
+    "price": 899.99,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 21,
+    "product_name": "PC 7",
+    "description": "Compact gaming PC with good performance.",
+    "brand": "Samsung",
+    "price": 1500.00,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
+  },
+  {
+    "id": 22,
+    "product_name": "Laptop 8",
+    "description": "Lightweight laptop for travel.",
+    "brand": "Apple",
+    "price": 1200.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 23,
+    "product_name": "Smartphone 8",
+    "description": "Latest smartphone with 5G support.",
+    "brand": "Samsung",
+    "price": 999.99,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
+  },
+  {
+    "id": 24,
+    "product_name": "PC 8",
+    "description": "Affordable PC for home use.",
+    "brand": "Dell",
+    "price": 500.00,
+    "year": 2022,
+    "country": "USA",
+    "isAvailable": false
+  },
+  {
+    "id": 25,
+    "product_name": "Laptop 9",
+    "description": "High-quality laptop with great battery life.",
+    "brand": "Apple",
+    "price": 1400.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 26,
+    "product_name": "Smartphone 9",
+    "description": "Stylish smartphone with a sleek design.",
+    "brand": "Samsung",
+    "price": 799.99,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
+  },
+  {
+    "id": 27,
+    "product_name": "PC 9",
+    "description": "Performance-driven PC for gamers.",
+    "brand": "Dell",
+    "price": 1800.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 28,
+    "product_name": "Laptop 10",
+    "description": "Powerful laptop for creative professionals.",
+    "brand": "Apple",
+    "price": 2500.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 29,
+    "product_name": "Smartphone 10",
+    "description": "Smartphone with excellent performance and camera.",
+    "brand": "Samsung",
+    "price": 899.99,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": false
+  },
+  {
+    "id": 30,
+    "product_name": "PC 10",
+    "description": "All-in-one PC with sleek design.",
+    "brand": "Dell",
+    "price": 1200.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 31,
+    "product_name": "Laptop 11",
+    "description": "Affordable laptop with good performance.",
+    "brand": "Dell",
+    "price": 650.00,
+    "year": 2022,
+    "country": "USA",
+    "isAvailable": false
+  },
+  {
+    "id": 32,
+    "product_name": "Smartphone 11",
+    "description": "Latest smartphone with great battery.",
+    "brand": "Apple",
+    "price": 799.99,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 33,
+    "product_name": "PC 11",
+    "description": "Compact PC for home office use.",
+    "brand": "Samsung",
+    "price": 800.00,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
+  },
+  {
+    "id": 34,
+    "product_name": "Laptop 12",
+    "description": "Gaming laptop with powerful graphics.",
+    "brand": "Apple",
+    "price": 2000.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 35,
+    "product_name": "Smartphone 12",
+    "description": "Smartphone with a stunning display.",
+    "brand": "Samsung",
+    "price": 899.99,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
+  },
+  {
+    "id": 36,
+    "product_name": "PC 12",
+    "description": "Gaming desktop with customizable features.",
+    "brand": "Dell",
+    "price": 2500.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 37,
+    "product_name": "Laptop 13",
+    "description": "Lightweight laptop for students.",
+    "brand": "Dell",
+    "price": 500.00,
+    "year": 2022,
+    "country": "USA",
+    "isAvailable": false
+  },
+  {
+    "id": 38,
+    "product_name": "Smartphone 13",
+    "description": "Affordable smartphone with all essential features.",
+    "brand": "Apple",
+    "price": 499.99,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 39,
+    "product_name": "PC 13",
+    "description": "High-performance PC for design work.",
+    "brand": "Samsung",
+    "price": 1800.00,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
+  },
+  {
+    "id": 40,
+    "product_name": "Laptop 14",
+    "description": "High-performance laptop with long battery life.",
+    "brand": "Apple",
+    "price": 1500.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 41,
+    "product_name": "Smartphone 14",
+    "description": "Smartphone with excellent camera and performance.",
+    "brand": "Samsung",
+    "price": 799.99,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
+  },
+  {
+    "id": 42,
+    "product_name": "PC 14",
+    "description": "Budget PC for basic tasks.",
+    "brand": "Dell",
+    "price": 400.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 43,
+    "product_name": "Laptop 15",
+    "description": "Powerful laptop for all-round use.",
+    "brand": "Dell",
+    "price": 1200.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 44,
+    "product_name": "Smartphone 15",
+    "description": "Latest smartphone with high-end features.",
+    "brand": "Apple",
+    "price": 999.99,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": false
+  },
+  {
+    "id": 45,
+    "product_name": "PC 15",
+    "description": "Gaming PC with high specifications.",
+    "brand": "Samsung",
+    "price": 2000.00,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
+  },
+  {
+    "id": 46,
+    "product_name": "Laptop 16",
+    "description": "Thin and light laptop for professionals.",
+    "brand": "Apple",
+    "price": 1400.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 47,
+    "product_name": "Smartphone 16",
+    "description": "Smartphone with great performance and design.",
+    "brand": "Samsung",
+    "price": 699.99,
+    "year": 2023,
+    "country": "South Korea",
+    "isAvailable": true
+  },
+  {
+    "id": 48,
+    "product_name": "PC 16",
+    "description": "High-quality PC for gamers.",
+    "brand": "Dell",
+    "price": 1900.00,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 49,
+    "product_name": "Laptop 17",
+    "description": "Excellent laptop for everyday use.",
+    "brand": "Dell",
+    "price": 800.00,
+    "year": 2022,
+    "country": "USA",
+    "isAvailable": false
+  },
+  {
+    "id": 50,
+    "product_name": "Smartphone 17",
+    "description": "Stylish smartphone with innovative features.",
+    "brand": "Apple",
+    "price": 1099.99,
+    "year": 2023,
+    "country": "USA",
+    "isAvailable": true
   }
 ]

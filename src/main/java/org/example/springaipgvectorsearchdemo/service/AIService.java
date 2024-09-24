@@ -19,6 +19,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 @Service
 public class AIService {
@@ -27,6 +28,8 @@ public class AIService {
 
     @Value("classpath:products.json")
     Resource resource;
+
+    private static final Logger LOGGER = Logger.getLogger(AIService.class.getName());
 
 
     public List<Document> loaddata() {
@@ -43,14 +46,15 @@ public class AIService {
                 new Document("The stars are not afraid of the darkness; they only shine brighter.", Map.of("country", "AU", "year", 2021))
         );*/
         TextSplitter textSplitter = new TokenTextSplitter();
-
+        int count = 0;
         for (Document document : documents) {
             List<Document> splitteddocs = textSplitter.split(document);
 
             try {
                // Sleep for 1 second
                 vectorStore.add(splitteddocs);
-                System.out.println("Added document: " + document.getContent());
+                LOGGER.info("Added document: " + document.getContent());
+                LOGGER.info("count : " + count++);
                 Thread.sleep(20000);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
@@ -75,8 +79,16 @@ public class AIService {
         List<Document> documents = new ArrayList<>();
         List<Product> products = getProducts();
         for (Product product : products) {
-            Document document = new Document(product.getBrand() + " " + product.getDescription()
-                    , Map.of("product_name",product.getProductName(),"brand",product.getBrand()));
+            Document document = new Document(product.getBrand() + " " + product.getDescription(),
+                    Map.of(
+                            "product_name", product.getProductName(),
+                            "brand", product.getBrand(),
+                            "price", product.getPrice(),
+                            "year", product.getYear(),
+                            "country", product.getCountry(),
+                            "isAvailable", product.isAvailable()
+                    )
+            );
             documents.add(document);
         }
         return documents;
