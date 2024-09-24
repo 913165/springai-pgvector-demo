@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "product_name": "Smartphone",
+    "description": "Latest model smartphone with advanced camera features and a powerful processor.",
+    "brand": "Apple"
+  },
+  {
+    "id": 2,
+    "product_name": "Smartphone",
+    "description": "Flagship smartphone with fast charging and a high refresh rate display.",
+    "brand": "Samsung"
+  },
+  {
+    "id": 3,
+    "product_name": "Smartphone",
+    "description": "5G-enabled smartphone with a large screen and high-resolution camera.",
+    "brand": "OnePlus"
+  },
+  {
+    "id": 4,
+    "product_name": "Laptop",
+    "description": "Lightweight laptop with a 15-inch display, fast performance, and extended battery.",
+    "brand": "Dell"
+  },
+  {
+    "id": 5,
+    "product_name": "Laptop",
+    "description": "High-performance gaming laptop with a dedicated graphics card.",
+    "brand": "Asus"
+  },
+  {
+    "id": 6,
+    "product_name": "Laptop",
+    "description": "Ultrabook with sleek design, long battery life, and fast SSD storage.",
+    "brand": "HP"
+  },
+  {
+    "id": 7,
+    "product_name": "Smartwatch",
+    "description": "Water-resistant smartwatch with fitness tracking and notification features.",
+    "brand": "Fitbit"
+  },
+  {
+    "id": 8,
+    "product_name": "Smartwatch",
+    "description": "Smartwatch with built-in GPS and heart rate monitoring.",
+    "brand": "Garmin"
+  },
+  {
+    "id": 9,
+    "product_name": "Smartwatch",
+    "description": "Smartwatch with ECG app, sleep tracking, and always-on display.",
+    "brand": "Apple"
+  },
+  {
+    "id": 10,
+    "product_name": "Laptop",
+    "description": "Powerful laptop for content creators with 4K display and ample storage.",
+    "brand": "Lenovo"
+  },
+  {
+    "id": 11,
+    "product_name": "Smartphone",
+    "description": "Mid-range smartphone with excellent battery life and a fast processor.",
+    "brand": "Xiaomi"
+  },
+  {
+    "id": 12,
+    "product_name": "Smartphone",
+    "description": "Premium smartphone with a foldable screen and top-of-the-line specs.",
+    "brand": "Samsung"
+  },
+  {
+    "id": 13,
+    "product_name": "Smartphone",
+    "description": "Compact smartphone with flagship features and a premium design.",
+    "brand": "Google"
+  },
+  {
+    "id": 14,
+    "product_name": "Laptop",
+    "description": "Business laptop with excellent security features and a 14-inch display.",
+    "brand": "Microsoft"
+  },
+  {
+    "id": 15,
+    "product_name": "Laptop",
+    "description": "Entry-level laptop with a long battery life and durable design.",
+    "brand": "Acer"
+  },
+  {
+    "id": 16,
+    "product_name": "Laptop",
+    "description": "Convertible 2-in-1 laptop with touch screen functionality.",
+    "brand": "Lenovo"
+  },
+  {
+    "id": 17,
+    "product_name": "Smartwatch",
+    "description": "Stylish smartwatch with fitness tracking and mobile payment features.",
+    "brand": "Samsung"
+  },
+  {
+    "id": 18,
+    "product_name": "Smartwatch",
+    "description": "Smartwatch with long battery life and customizable watch faces.",
+    "brand": "Fossil"
+  },
+  {
+    "id": 19,
+    "product_name": "Smartwatch",
+    "description": "High-end smartwatch with LTE connectivity and fitness tracking.",
+    "brand": "Huawei"
+  },
+  {
+    "id": 20,
+    "product_name": "Laptop",
+    "description": "Ultra-thin laptop with fast charging and exceptional performance.",
+    "brand": "Apple"
+  }
+]
