@@ -69,8 +69,9 @@ public class AIService {
         //List<Document> results = vectorStore.similaritySearch(SearchRequest.query(query).withTopK(3));
         FilterExpressionBuilder filter = new FilterExpressionBuilder();
          List<Document> results = vectorStore.similaritySearch(SearchRequest.query(query)
-                .withTopK(3)
-                .withFilterExpression(filter.eq("brand", "Apple").build()));
+
+                //.withFilterExpression(filter.in("brand", "Dell","Apple").build()).withTopK(10));
+                // .withFilterExpression("brand in[ 'Samsung'] and brand not in ['Apple']").withTopK(10));
 
         return results;
     }
